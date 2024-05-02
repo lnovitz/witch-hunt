@@ -1,0 +1,1 @@
+With the closure of Women Who Code, a global non-profit with 360,000 people across 145 countries, it's more important than ever to find community. I'm building this app to help connect disparate organizations - there's so many out there, let's combine resources and support each other! 
