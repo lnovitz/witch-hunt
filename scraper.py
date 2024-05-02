@@ -9,7 +9,8 @@ r = requests.get(
 )
 
 soup = BeautifulSoup(r.content, "html.parser")
-s = soup.find_all(attrs={"data-testid": "group-card-title"})
+s = soup.find_all(attrs={"data-testid": "group-card"}, limit=10)
 for group in s:
-    print(group)
+    title = group.find(attrs={"data-testid": "group-card-title"}).getText()
+    print(title)
     # print(group.find_next_sibling("div"))
